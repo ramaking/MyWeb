@@ -1,0 +1,66 @@
+body{
+margin:0;
+}
+
+h1{
+font-size:50px;
+text-align:center;
+border-bottom:1px solid gray;
+margin:0;
+padding:20px;
+}
+#left-menu{
+border-right:1px solid gray;
+
+font-size:20px;
+}
+#left-menu ol{
+margin:0;
+padding-left:50px;
+
+}
+#grid{
+display:grid;
+grid-template-columns:200px 1fr;
+}
+#contents{
+padding-left:40px;
+padding-top:30px;
+}
+#my-study{
+border-bottom:1px solid gray;
+padding-bottom:200px;
+}
+#my-study h4{
+text-align:center;
+margin-bottom:10px;
+}
+#site h4{
+text-align:center;
+margin-bottom:10px;
+}
+
+@media(max-width:750px){
+
+#grid{
+display:block;
+}
+#left-menu{
+display:grid;
+padding-bottom:0px;
+margin-bottom:0px;
+grid-template-columns:1fr 1fr;
+border-bottom:1px solid gray;
+width:none;
+border-right:none;
+}
+#my-study{
+border-bottom:none;
+padding-bottom:30px;
+border-right:1px solid gray;
+}
+
+
+
+}
+
